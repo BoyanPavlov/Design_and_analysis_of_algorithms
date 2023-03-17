@@ -1,3 +1,4 @@
 # Welcome to my repo for Design and analysis of algorithms practicum
 
-### Added Sorting algorithms
+### Now you can find some slow sorting algorithms
+### Added 2 searching algorithms
