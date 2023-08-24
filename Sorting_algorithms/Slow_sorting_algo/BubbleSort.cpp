@@ -8,7 +8,7 @@ void swap(int arr[], int pos, int prevPos)
         arr[prevPos] = arr[pos] ^ arr[prevPos];
         arr[pos] = arr[pos] ^ arr[prevPos];
     }
-}
+} 
 
 // Bubble sort
 void bubbleSort(int array[], unsigned size)
