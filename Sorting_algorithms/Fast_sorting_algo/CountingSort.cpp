@@ -37,7 +37,9 @@ void countingSort(std::vector<T> &arr)
     std::vector<T> sortedArr(arr.size());
 
     // Build the sorted array
+    // we iterate backwards in order to preserve the stability of the algo
     for (int i = arr.size() - 1; i >= 0; --i)
+    // for (int i = 0; i < arr.size(); i++)
     {
 
         // Actual position Of A Number In Counting Array = arr[i] - minVal;
@@ -53,9 +55,9 @@ void countingSort(std::vector<T> &arr)
 
 int main()
 {
-     std::vector<int> arr = {4, 2, 2, 8, 3, 3, 1};
-    //std::vector<char> arr = {'g', 'e', 'e', 'k', 's', 'f', 'o', 'r', 'g', 'e', 'e', 'k', 's'};
-    // std::vector<int> arr = {3,5,2,4};
+    // std::vector<int> arr = {4, 2, 2, 8, 3, 3, 1};
+    std::vector<char> arr = {'g', 'e', 'e', 'k', 's', 'f', 'o', 'r', 'g', 'e', 'e', 'k', 's'};
+    //  std::vector<int> arr = {3,5,2,4};
 
     countingSort(arr);
 
